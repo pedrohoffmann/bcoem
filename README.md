@@ -1,3 +1,15 @@
+# Instruções para instalação
+
+1. Descompactar o arquivo bcoem.pt-br.2.1.12.cpf.tar.gz no seu servidor.
+
+2. Importar o arquivo bcoem.pt-br.2.1.12.cpf.sql no seu banco de dados.
+
+3. Alterar a configuração do banco de dados em "site/config.php".
+
+4. Fazer login como usuário temporário. login: example@example.com / senha: bcoem
+   * Não se esqueça de remover o usuário temporário após a instalação. Crie um novo usuário, dê poderes administrativos, faça login com o novo usuário e apague o usuário temporário.
+
+
 # Brew Competition Online Entry & Management
 
 Working repository of BCOE&M.

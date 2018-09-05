@@ -8,6 +8,8 @@
 
 4. Fazer login como usuário temporário. login: example@example.com / senha: bcoem
    * Não se esqueça de remover o usuário temporário após a instalação. Crie um novo usuário, dê poderes administrativos, faça login com o novo usuário e apague o usuário temporário.
+   
+5. O controle de acesso para inscrição é feito através do número de CPF sem pontuação e sem espaço. Os números devem ser adicionados à tabela 'cpf' do banco de dados. Utilizar phpmyadmin, adminer ou outro editor mysql para inserir os números.
 
 
 # Brew Competition Online Entry & Management

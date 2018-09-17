@@ -1147,7 +1147,7 @@ $login_text_005 = "Redefini-lo";
 $login_text_006 = "Para redefinir sua senha, digite o endereço de e-mail que você usou quando se registrou.";
 $login_text_007 = "Verificar";
 $login_text_008 = "Gerado aleatoriamente.";
-$login_text_009 = "<strong> Indisponível. </ strong> Sua conta foi criada por um administrador e sua &quot; resposta secreta&quot; foi gerada aleatoriamente. Entre em contato com o administrador de um site para recuperar ou alterar sua senha.";
+$login_text_009 = "<strong> Indisponível. </ strong> Sua conta foi criada por um administrador e sua resposta secreta foi gerada aleatoriamente. Entre em contato com o administrador de um site para recuperar ou alterar sua senha.";
 $login_text_010 = "Ou use a opção de e-mail abaixo.";
 $login_text_011 = "Sua pergunta de segurança é ...";
 $login_text_012 = "Se você não recebeu o email,";
@@ -1291,8 +1291,8 @@ $header_text_116 = "Se você não receber o email dentro de um prazo razoável, 
 // -------------------- Alertas --------------------
 $alert_text_082 = "Desde que você se inscreveu como juiz ou assistente, você não tem permissão para adicionar amostras à sua conta. Apenas representantes de uma organização podem adicionar amostras às suas contas.";
 $alert_text_083 = "Adicionar e editar amostras não está disponível.";
-$alert_text_084 = "Como dministrador, você pode adicionar uma amostra à conta de uma organização usando o menu suspenso & quot; Adicionar amostra para ...&quot; na página Administração &gt; Entradas e participantes &gt; Gerenciar inscrições.";
-$alert_text_085 = "Você não conseguirá imprimir a papelada de qualquer amostra (etiquetas de garrafas, etc.) até que o pagamento seja confirmado e tenha sido marcado como & quot; pago & quot; abaixo.";
+$alert_text_084 = "Como administrador, você pode adicionar uma amostra à conta de uma organização usando o menu suspenso &quot; Adicionar amostra para... &quot; na página Administração &gt; Entradas e participantes &gt; Gerenciar inscrições.";
+$alert_text_085 = "Você não conseguirá imprimir a papelada de qualquer amostra (etiquetas de garrafas, etc.) até que o pagamento seja confirmado e tenha sido marcado como &quot; pago &quot; abaixo.";
 
 // -------------------- Brew (Adicionar entrada) --------------------
 if ($section == "brew") {
@@ -1402,7 +1402,7 @@ $paypal_response_text_002 = "Boa sorte na competição!";
 $paypal_response_text_003 = "Por favor, não responda a este e-mail, pois ele é gerado automaticamente. A conta de origem não está ativa nem monitorada.";
 $paypal_response_text_004 = "O PayPal processou sua transação.";
 $paypal_response_text_005 = "O status do seu pagamento pelo PayPal é:";
-$paypal_response_text_006 = "A resposta do Paypal foi inválida. & quot; Por favor, tente efetuar o seu pagamento novamente. ";
+$paypal_response_text_006 = "A resposta do Paypal foi inválida. Por favor, tente efetuar o seu pagamento novamente. ";
 $paypal_response_text_007 = "Por favor, entre em contato com o organizador da competição se você tiver alguma dúvida.";
 $paypal_response_text_008 = "Pagamento PayPal inválido";
 $paypal_response_text_009 = "Detalhes do pagamento via PayPal";
@@ -1435,11 +1435,27 @@ $best_brewer_text_014 = "clubes participantes";
 
 // Version 2.1.12
 $dropoff_qualifier_text_001 = "Por favor, preste atenção nas notas fornecidas para cada local de entrega, pois podem haver especificidades, tais como, diferentes prazos, horários e pessoas específicas para deixar as amostras. <strong class=\"text-danger\">Os participantes são responsáveis por ler as informações fornecidas pelos organizadores para cada local de entrega.</strong>";
-$brewer_text_036 = "Since you have chosen \"<em>Other</em>,\" please make sure the club you have entered is not on our list in some similar form.";
-$brewer_text_037 = "For example, you may have entered the acronnym of your club instead of the full name.";
-$brewer_text_038 = "Consistent club names across users is essential if for \"Best Club\" calculations if implemented for this competition.";
-$brewer_text_039 = "The club you entered previously does not match one on our list.";
-$brewer_text_040 = "Please choose from the list or choose <em>Other</em> and enter your club name.";
+$brewer_text_036 = "Na medida em que escolheu \"<em>Other</em>,\" por favor certifique que a ACervA que você escolheu já não está listada.";
+$brewer_text_037 = "Por exemplo, você pode ter digitado as siglas ou nome reduzido ao invés do nome completo da ACervA.";
+$brewer_text_038 = "A consistência desses dados é essencial para se contabilizar os cálculos de \"Best Club\", caso seja implementada a premiação neste concurso.";
+$brewer_text_039 = "A ACervA inserida não foi encontrada na lista.";
+$brewer_text_040 = "Por favor escolha uma ACervA dentre as listadas ou escolha <em>Other</em> e insira o nome de seu clube ou associação.";
+
+
+// ----------------------------------------------------------------------------------
+// Version 2.1.13 Additions
+// ----------------------------------------------------------------------------------
+$entry_info_text_048 = "Para garantir um julgamento apropriado, o participante deverá fornecer informações adicionais sobre a amostra.";
+$entry_info_text_049 = "Para garantir um julgamento apropriado, o participante deverá fornecer informações sobre o teor alcoólico da amostra.";
+$entry_info_text_050 = "Para garantir um julgamento apropriado, o participante deverá fornecer informações sobre o nível de carbonatação da amostra.";
+$entry_info_text_051 = "Para garantir um julgamento apropriado, o participante deverá fornecer informações sobre o nível de dulçor da amostra.";
+$entry_info_text_052 = "Se a inscrição for feita nesta categoria, o participante deverá fornecer maiores informações para que a amostra seja julgada precisamente. Quanto mais informação, melhor.";
+$output_text_028 = "As amostra a seguir podem conter alergênicos - com informações repassadas por participantes.";
+$output_text_029 = "Nenhum participante informou a presença de alergênicos em suas amostras.";
+$label_this_style = "Este estilo";
+$label_notes = "Notas";
+$label_possible_allergens = "Possíveis alergênicos";
+$label_please_choose = "Por favor escolha";
 
 
 
